@@ -1,0 +1,22 @@
+{
+    "name": "IphoneX Notch",
+    "version": "1.0.0",
+    "description": "Test how your website will look if the Iphone X's notch comes to other apple products.",
+    "content_scripts": [{
+        "css": ["style.css"],
+        "js": ["script.js"],
+        "matches": ["<all_urls>"]
+    }],
+    "permissions": [],
+    "icons": {
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "browser_action": {
+      "default_icon": "icon.png"
+    },
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "manifest_version": 2
+}

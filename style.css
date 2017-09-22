@@ -1,0 +1,12 @@
+.notch {
+    background: rgba(0,0,0,1) !important;
+    width: 56%;
+    height: 70px;
+    margin-left: -28%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    z-index: 40000000000000000000000;
+}
